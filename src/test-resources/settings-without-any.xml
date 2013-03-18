@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <connection>
+        <ip>localhost</ip>
+        <port>5003</port>
+        <auth>login</auth>
+        <user>user</user>
+        <password>password</password>
+    </connection>
+    <responses>
+        <response>
+            <query>/xml1</query>
+            <type>binary</type>
+            <value>testdata/xml1.xml</value>
+        </response>
+        <response>
+            <query>/image1</query>
+            <type>binary</type>
+            <value>testdata/image1.png</value>
+        </response>
+        <response>
+            <query>/text</query>
+            <type>inplace</type>
+            <value><![CDATA[<text>text</text>]]></value>
+        </response>
+    </responses>
+</config>
