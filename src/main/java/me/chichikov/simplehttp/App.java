@@ -19,7 +19,7 @@ public class App {
             server.start();
             System.out.println(server);
             System.out.println("Press Enter to stop.");
-            System.in.read(); // нужно заменить
+            System.in.read();
             server.stop();
             System.out.println("Server was stopped.");
         }
